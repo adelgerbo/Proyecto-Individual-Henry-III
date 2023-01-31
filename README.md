@@ -24,9 +24,16 @@ Cada dataset contenia diferentes características, por lo que los analizamos por
 
 ### Udemy
 Este dataset no contenia nulos y solo 6 registros duplicados, que eliminamos.
+
 Udemy ofrece cursos gratuitos y pagos, y verificamos que el 90% de los cursos son pagos.
+
 Con respecto al precio, notamos que la mayor parte se encuentra en el rango de hasta 60 dolares, con muy poca cantidad de cursos en el rango medio de precio, pero con una cantidad considerable de cursos en el mayor valor de 200 dólares.
+
 Verificamos tambien que la mayor parte de los cursos son para todos los niveles y para principiante, con menos cantidad de cursos para nivel intermedio y aun menos para expertos.
+
+Con respecto a la temática, brinda mayor cantidad de cursos de Desarrollo Web y de Finanzas de los Negocios.
+
+
 
 
 
