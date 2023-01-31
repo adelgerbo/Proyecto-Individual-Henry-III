@@ -33,6 +33,10 @@ Verificamos tambien que la mayor parte de los cursos son para todos los niveles 
 
 Con respecto a la temática, brinda mayor cantidad de cursos de Desarrollo Web y de Finanzas de los Negocios.
 
+Por último, generamos una Wordcloud con la descripción de los cursos ofrecidos.
+
+<img src="udemy.png" alt="drawing" width="800"/>
+
 
 
 
