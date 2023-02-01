@@ -48,7 +48,13 @@ Los temas mas populares de sus cursos son Computer Science y Business & Managmen
 
 En cuanto al idioma, la gran mayoría de los cursos son en inglés, con los cursos en español en segundo lugar pero con una cantidad muy menor y el resto de los idiomas ofrecidos, en muy poca cantidad de cursos disponibles.
 
-<img src="edx.png" alt="drawing" width="800"/>
+Por último, generamos una Wordcloud con la descripción de los cursos ofrecidos.
+
+<img src="EDX.png" alt="drawing" width="800"/>
+
+Debido a la preponderancia del idioma inglés en los cursos, generamos una segunda Wordcloud solo en español.
+
+<img src="EDX2.png" alt="drawing" width="800"/>
 
 ### **COURSERA**
 
