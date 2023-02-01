@@ -12,17 +12,17 @@ Como resumen, se nos entregaron 4 datasets de 3 empresas dedicadas a brindar cur
 
 Debiamos comenzar haciendo un Analisis Exploratorio de los Datos [(EDA)](https://www.ibm.com/ar-es/cloud/learn/exploratory-data-analysis), realizando luego las transformaciones que consideraramos necesarias, para realizar luego un análisis de los datos y realizar una presentación al respecto.
 
-## Librerias utilizadas
+## **Librerias utilizadas**
 * [Pandas](https://pandas.pydata.org/) y [Numpy](https://numpy.org/) para la exploración, transformación y manipulación de los datos
 * [Seaborn](https://seaborn.pydata.org/) y [Matplotlib](https://matplotlib.org/) para las visualizaciones
 * [Wordcloud](https://pypi.org/project/wordcloud/) para la generación de [Nubes de Palabras](https://www.questionpro.com/blog/es/nubes-de-palabras/)
 * [NLTK Stopwords](https://www.nltk.org/index.html) para la limpieza de textos
 
 
-## EDA (Analisis exploratorio de datos)
+## **EDA (Analisis exploratorio de datos)**
 Cada dataset contenia diferentes características, por lo que los analizamos por separado.
 
-### Udemy
+### **Udemy**
 Este dataset no contenia nulos y solo 6 registros duplicados, que eliminamos.
 
 Udemy ofrece cursos gratuitos y pagos, y verificamos que el 90% de los cursos son pagos.
@@ -37,12 +37,26 @@ Por último, generamos una Wordcloud con la descripción de los cursos ofrecidos
 
 <img src="udemy.png" alt="drawing" width="800"/>
 
+### **EDX**
+Este dataset contenía 120 nulos en la columna de Enrolados. Esta columna era de vital importancia para el análisis, ya que la misión principal que nos asignaron consistía en evaluar la contratación de cursos en función de las otras variables, por lo que decidimos eliminar solo los registros con nulos.
+
+EDX dispone de cursos en los cuales los estudiantes manejan sus tiempos y otros que son llevados adelante por instructores y que respetan un cronograma. Detectamos que solo el 5% de los cursos son conducidos por instructores.
+
+Al igual que Udemy, EDX ofrece la mayor cantidad de cursos en nivel Principiante y la menor cantidad en nivel Avanzado.
+
+Los temas mas populares de sus cursos son Computer Science y Business & Managment.
+
+En cuanto al idioma, la gran mayoría de los cursos son en inglés, con los cursos en español en segundo lugar pero con una cantidad muy menor y el resto de los idiomas ofrecidos, en muy poca cantidad de cursos disponibles.
+
+<img src="edx.png" alt="drawing" width="800"/>
+
+### **COURSERA**
 
 
 
 
 
-## Código y Archivos
+## **Código y Archivos**
 Pueden encontrar en mi repositorio de Github el [Notebook con el EDA y los modelos supervisados](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/blob/main/EDA%20y%20entrenamiento%20supervisado.ipynb), el [Notebook con los modelos no supervisados](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/blob/main/No%20Supervisado.ipynb) y la [Carpeta que contiene los archivos csv con las predicciones enviadas a Henry](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/tree/main/Predicciones%20enviadas)
 
 
