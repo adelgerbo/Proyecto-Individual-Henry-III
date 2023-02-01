@@ -71,10 +71,13 @@ Por último, generamos un Wordcloud con los nombres de los cursos
 
 <img src="coursera.png" alt="drawing" width="800"/>
 
+## **Power BI**
+La parte final del trabajo la realizamos en Power BI, donde mediantes diversas visualizaciones exponemos todos los datos contenidos en los datasets, relacionandolos entre ellos.
+
+Por últimos, incluimos un KPI para presentar a la nueva empresa, que consiste en obtener como meta un promedio de puntaje en las reviews superior a 4.75.
 
 ## **Código y Archivos**
-Pueden encontrar en mi repositorio de Github el [Notebook con el EDA y los modelos supervisados](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/blob/main/EDA%20y%20entrenamiento%20supervisado.ipynb), el [Notebook con los modelos no supervisados](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/blob/main/No%20Supervisado.ipynb) y la [Carpeta que contiene los archivos csv con las predicciones enviadas a Henry](https://github.com/adelgerbo/Proyecto-Individual-Henry-II/tree/main/Predicciones%20enviadas)
-
+Pueden encontrar en mi repositorio de Github el [Notebook con el EDA](https://github.com/adelgerbo/Proyecto-Individual-Henry-III/blob/main/EDA.ipynb) y [las visualizaciones en Power BI](https://github.com/adelgerbo/Proyecto-Individual-Henry-III/blob/main/udemy.pbix)
 
 ## **Datos sobre el autor**
 
