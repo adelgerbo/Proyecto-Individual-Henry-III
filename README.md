@@ -57,9 +57,19 @@ Debido a la preponderancia del idioma inglés en los cursos, generamos una segun
 <img src="EDX2.png" alt="drawing" width="800"/>
 
 ### **COURSERA**
+En este caso teniamos a disposición dos datasets, uno con información acerca de los cursos y la institución que los dicta, y otro con reviews de estudiantes.
 
+El dataset con las reseñas incluía dos tercios de registros duplicados, los cuales eliminamos para no distorsionar el análisis.
 
+Analizamos las reseñas y notamos que son en su mayoría positivas, con una cantidad ínfima de malos comentarios.
 
+Generamos una Wordcloud con las reseñas y notamos que las palabras más utilizadas se expresan en el mismo sentido.
+
+<img src="reviews.png" alt="drawing" width="800"/>
+
+Por último, generamos un Wordcloud con los nombres de los cursos
+
+<img src="coursera.png" alt="drawing" width="800"/>
 
 
 ## **Código y Archivos**
